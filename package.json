@@ -1,11 +1,10 @@
 {
-  "name": "my-cool-webserver",
+  "name": "docker-centos-hello",
+  "private": true,
   "version": "0.0.1",
-  "description": "A NodeJS webserver to run inside a docker container",
-  "main": "index.js",
-  "author": "sean@seanmcgary.com",
-  "license": "MIT",
+  "description": "Node.js Hello world app on CentOS using docker",
+  "author": "Daniel Gasienica <daniel@gasienica.ch>",
   "dependencies": {
-    "express": "*"
+    "express": "3.2.4"
   }
 }

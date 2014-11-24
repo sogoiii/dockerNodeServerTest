@@ -1,9 +1,13 @@
 var express = require('express');
 
-var app = express();
+// Constants
+var PORT = 8080;
 
-app.get('/', function(req, res){
-    res.send('Hello from inside a container!');
+// App
+var app = express();
+app.get('/', function (req, res) {
+  res.send('Hello world! inside container!\n');
 });
 
-app.listen(8080);
+app.listen(PORT);
+console.log('Running on http://localhost:' + PORT);
